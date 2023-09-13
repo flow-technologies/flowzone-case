@@ -1,0 +1,52 @@
+{
+  "resourceType": "Questionnaire",
+  "language": "nb-NO",
+  "status": "active",
+  "title": "Spørreskjema om personalia",
+  "publisher": "Flowzone",
+  "contact": [
+    {
+      "name": "http://flowzone.eu"
+    }
+  ],
+  "subjectType": ["Patient"],
+  "id": "97849c94-3b26-404d-ed0b-2f63891b531c",
+  "item": [
+    {
+      "linkId": "eb805467-952e-4529-8f78-5138cf623f0c",
+      "type": "string",
+      "text": "Hva heter du?",
+      "required": true
+    },
+    {
+      "linkId": "946fa7e3-dab2-41e0-888a-3bd25b82c4be",
+      "type": "integer",
+      "text": "Hva er din høyde i cm?",
+      "required": false
+    },
+    {
+      "linkId": "6b3b0d47-faac-43c3-8500-cb6851bb009c",
+      "type": "choice",
+      "text": "Bor du i Oslo?",
+      "required": false,
+      "answerOption": [
+        {
+          "valueCoding": {
+            "id": "efef9273-4ea3-4fa0-8b95-eeb40a86bb40",
+            "code": "ja",
+            "system": "urn:uuid:ede4ae38-7f6d-4e1a-80b2-72dc5fb4370d",
+            "display": "ja"
+          }
+        },
+        {
+          "valueCoding": {
+            "id": "68ab9b9e-fbf0-42ae-8aa5-3e4877b26d2b",
+            "code": "nei",
+            "system": "urn:uuid:ede4ae38-7f6d-4e1a-80b2-72dc5fb4370d",
+            "display": "nei"
+          }
+        }
+      ]
+    }
+  ]
+}
