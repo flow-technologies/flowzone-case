@@ -35,7 +35,7 @@
             "id": "efef9273-4ea3-4fa0-8b95-eeb40a86bb40",
             "code": "ja",
             "system": "urn:uuid:ede4ae38-7f6d-4e1a-80b2-72dc5fb4370d",
-            "display": "ja"
+            "display": "Ja"
           }
         },
         {
@@ -43,7 +43,7 @@
             "id": "68ab9b9e-fbf0-42ae-8aa5-3e4877b26d2b",
             "code": "nei",
             "system": "urn:uuid:ede4ae38-7f6d-4e1a-80b2-72dc5fb4370d",
-            "display": "nei"
+            "display": "Nei"
           }
         }
       ]
